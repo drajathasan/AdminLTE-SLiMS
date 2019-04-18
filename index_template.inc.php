@@ -372,7 +372,7 @@ function setPict()
            if (isset($_GET['mod']) AND ($_GET['mod'] == 'system')) {
               echo '<script>$(\'#mainContent\').simbioAJAX(\''.MWB.'system/index.php\');</script>';
            } else {
-             include_once SB.'admin/admin_template/adminlte/dashboard.php';
+             include_once SB.'admin/admin_template/'.$sysconf['admin_template']['theme'].'/dashboard.php';
              echo $mainContent;
            }
         ?>
