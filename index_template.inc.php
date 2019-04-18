@@ -26,7 +26,7 @@ include 'menuGenerator.php';
 function setPict()
 {
   global $sysconf;
-  $img = AWB.'images/persons/'.$_SESSION['upict']; 
+  $img = SWB.'images/persons/'.$_SESSION['upict']; 
   if (isset($_SESSION['upict'])) {
      if ($_SESSION['upict'] == 'person.png') {
         $img = AWB.'admin_template/'.$sysconf['admin_template']['theme'].'/dist/img/mainavatar.png';
