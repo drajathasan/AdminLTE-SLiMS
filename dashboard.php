@@ -288,7 +288,7 @@ $get_total_available = number_format($get_total_available,0,'.',',');
 
 /* Label and color */
 $label = array(__('Total'), __('Loan'), __('Return'), __('Extend'), __('Overdue'));
-$color = array('#D81B60', '#00c0ef', '#00a65a', '#ff851b', '#39CCCC');
+$color = array('#D81B60', '#4300ff', '#00a65a', '#ff851b', '#39CCCC');
 ?>
 <!-- Main content -->
 <section class="content">
@@ -406,7 +406,7 @@ $color = array('#D81B60', '#00c0ef', '#00a65a', '#ff851b', '#39CCCC');
               <div class="row">
                     <div class="col-sm-3 col-xs-6">
                       <div class="description-block border-right">
-                        <h5 class="description-header" style="color: <?php echo $color[0];?>"><?php echo $get_return;?></h5>
+                        <h5 class="description-header" style="color: <?php echo $color[0];?>"><i class="fa fa-square"></i></h5>
                         <span class="description-text">Return</span>
                       </div>
                       <!-- /.description-block -->
@@ -414,7 +414,7 @@ $color = array('#D81B60', '#00c0ef', '#00a65a', '#ff851b', '#39CCCC');
                     <!-- /.col -->
                     <div class="col-sm-3 col-xs-6">
                       <div class="description-block border-right">
-                        <h5 class="description-header" style="color: <?php echo $color[3];?>"><?php echo $get_extends;?></h5>
+                        <h5 class="description-header" style="color: <?php echo $color[3];?>"><i class="fa fa-square"></i></h5>
                         <span class="description-text">Extends</span>
                       </div>
                       <!-- /.description-block -->
@@ -422,7 +422,7 @@ $color = array('#D81B60', '#00c0ef', '#00a65a', '#ff851b', '#39CCCC');
                     <!-- /.col -->
                     <div class="col-sm-3 col-xs-6">
                       <div class="description-block border-right">
-                        <h5 class="description-header" style="color: <?php echo $color[4];?>"><?php echo $get_loan;?></h5>
+                        <h5 class="description-header" style="color: <?php echo $color[4];?>"><i class="fa fa-square"></i></h5>
                         <span class="description-text">New</span>
                       </div>
                       <!-- /.description-block -->

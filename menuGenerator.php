@@ -65,7 +65,7 @@ function menuGenerator()
 			$icon_set  = (isset($icon[$_module['name']]))?$icon[$_module['name']]:'fa fa-bars';
 			$menu .= '<li class="treeview tv'.$key.'">';
 			$menu .= '<a href="'.MWB.$_module['path'].'/index.php" target="blindSubmit">';
-			$menu .= '<i class="'.$icon_set.'"></i> <span>'.$_formated_module_name.'</span>';
+			$menu .= '<i class="'.$icon_set.'"></i> <span>'.__($_formated_module_name).'</span>';
 			$menu .= '<span class="pull-right-container">';
 			$menu .= '<i class="fa fa-angle-left pull-right"></i>';
 			$menu .= '</span>';
